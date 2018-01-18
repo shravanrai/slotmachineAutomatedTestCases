@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="21" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32304" started-at="2018-01-18T23:19:57Z" finished-at="2018-01-18T23:20:29Z">
+    <groups>
+      <group name="smoke">
+        <method signature="SlotMachineTests.testHeadlineMessage()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="testHeadlineMessage" class="scenariocomp.SlotMachineTests"/>
+        <method signature="SlotMachineTests.testHomeImage()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="testHomeImage" class="scenariocomp.SlotMachineTests"/>
+        <method signature="SlotMachineTests.test_Init_betTryMe()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_betTryMe" class="scenariocomp.SlotMachineTests"/>
+        <method signature="SlotMachineTests.test_betSpinUp_winChartValues()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_betSpinUp_winChartValues" class="scenariocomp.SlotMachineTests"/>
+      </group> <!-- smoke -->
+      <group name="FirstTimeVisitor">
+        <method signature="SlotMachineTests.test_Init_Bet()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_Bet" class="scenariocomp.SlotMachineTests"/>
+        <method signature="SlotMachineTests.test_Init_LifetimeWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_LifetimeWinnings" class="scenariocomp.SlotMachineTests"/>
+        <method signature="SlotMachineTests.test_Init_dayWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_dayWinnings" class="scenariocomp.SlotMachineTests"/>
+        <method signature="SlotMachineTests.test_Init_lastWin()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_lastWin" class="scenariocomp.SlotMachineTests"/>
+      </group> <!-- FirstTimeVisitor -->
+    </groups>
+    <test name="Default test" duration-ms="32304" started-at="2018-01-18T23:19:57Z" finished-at="2018-01-18T23:20:29Z">
+      <class name="scenariocomp.SlotMachineTests">
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="extentReport" is-config="true" duration-ms="204" started-at="2018-01-19T04:49:57Z" finished-at="2018-01-19T04:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="init()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="init" is-config="true" duration-ms="16845" started-at="2018-01-19T04:49:57Z" finished-at="2018-01-19T04:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test_Init_betTryMe()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_betTryMe" duration-ms="92" started-at="2018-01-19T04:50:14Z" finished-at="2018-01-19T04:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Init_betTryMe -->
+        <test-method status="PASS" signature="ClickAndGetSpinButtonClass()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="ClickAndGetSpinButtonClass" duration-ms="8223" started-at="2018-01-19T04:50:14Z" finished-at="2018-01-19T04:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAndGetSpinButtonClass -->
+        <test-method status="PASS" signature="testExtentReport()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="testExtentReport" duration-ms="963" started-at="2018-01-19T04:50:22Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtentReport -->
+        <test-method status="PASS" signature="testHeadlineMessage()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="testHeadlineMessage" duration-ms="69" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeadlineMessage -->
+        <test-method status="PASS" signature="testHomeImage()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="testHomeImage" duration-ms="48" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeImage -->
+        <test-method status="PASS" signature="test_Init_Bet()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_Bet" duration-ms="45" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Init_Bet -->
+        <test-method status="PASS" signature="test_Init_LifetimeWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_LifetimeWinnings" duration-ms="40" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Init_LifetimeWinnings -->
+        <test-method status="PASS" signature="test_Init_dayWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_dayWinnings" duration-ms="47" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Init_dayWinnings -->
+        <test-method status="PASS" signature="test_Init_lastWin()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_Init_lastWin" duration-ms="43" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Init_lastWin -->
+        <test-method status="PASS" signature="test_PostSpin_Credits()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_PostSpin_Credits" duration-ms="157" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PostSpin_Credits -->
+        <test-method status="PASS" signature="test_PostSpin_winChartWon()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_PostSpin_winChartWon" duration-ms="60" started-at="2018-01-19T04:50:23Z" finished-at="2018-01-19T04:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PostSpin_winChartWon -->
+        <test-method status="PASS" signature="test_betSpinDown_bet()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_betSpinDown_bet" duration-ms="203" started-at="2018-01-19T04:50:24Z" finished-at="2018-01-19T04:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_betSpinDown_bet -->
+        <test-method status="PASS" signature="test_betSpinDown_minBet()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_betSpinDown_minBet" duration-ms="694" started-at="2018-01-19T04:50:24Z" finished-at="2018-01-19T04:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_betSpinDown_minBet -->
+        <test-method status="PASS" signature="test_betSpinUp_bet()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_betSpinUp_bet" duration-ms="118" started-at="2018-01-19T04:50:24Z" finished-at="2018-01-19T04:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_betSpinUp_bet -->
+        <test-method status="PASS" signature="test_betSpinUp_maxBetAllowed()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_betSpinUp_maxBetAllowed" duration-ms="699" started-at="2018-01-19T04:50:25Z" finished-at="2018-01-19T04:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_betSpinUp_maxBetAllowed -->
+        <test-method status="PASS" signature="test_betSpinUp_winChartValues()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_betSpinUp_winChartValues" duration-ms="108" started-at="2018-01-19T04:50:25Z" finished-at="2018-01-19T04:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_betSpinUp_winChartValues -->
+        <test-method status="PASS" signature="test_dayWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_dayWinnings" duration-ms="192" started-at="2018-01-19T04:50:25Z" finished-at="2018-01-19T04:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dayWinnings -->
+        <test-method status="PASS" signature="test_lifetimeWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_lifetimeWinnings" duration-ms="202" started-at="2018-01-19T04:50:26Z" finished-at="2018-01-19T04:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_lifetimeWinnings -->
+        <test-method status="PASS" signature="test_lifetimeWinningsVsDayWinnings()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_lifetimeWinningsVsDayWinnings" duration-ms="53" started-at="2018-01-19T04:50:26Z" finished-at="2018-01-19T04:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_lifetimeWinningsVsDayWinnings -->
+        <test-method status="FAIL" signature="test_successfulSpin_winChartVsreel()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_successfulSpin_winChartVsreel" duration-ms="395" started-at="2018-01-19T04:50:26Z" finished-at="2018-01-19T04:50:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This is definitely a successSpin expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This is definitely a successSpin expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at scenariocomp.SlotMachineTests.test_successfulSpin_winChartVsreel(SlotMachineTests.java:408)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_successfulSpin_winChartVsreel -->
+        <test-method status="FAIL" signature="test_successfulSpin_winchartVsLastWin()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="test_successfulSpin_winchartVsLastWin" duration-ms="204" started-at="2018-01-19T04:50:26Z" finished-at="2018-01-19T04:50:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [70] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [70] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at scenariocomp.SlotMachineTests.test_successfulSpin_winchartVsLastWin(SlotMachineTests.java:370)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_successfulSpin_winchartVsLastWin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scenariocomp.SlotMachineTests@239963d8]" name="tearDown" is-config="true" duration-ms="2759" started-at="2018-01-19T04:50:26Z" finished-at="2018-01-19T04:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scenariocomp.SlotMachineTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

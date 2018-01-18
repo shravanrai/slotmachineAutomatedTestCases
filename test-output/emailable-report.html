@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">19</td><td class="numi">19</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">32.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">scenariocomp.SlotMachineTests</td><td><a href="#m1"><b>test_successfulSpin_winChartVsreel</b>  </a></td><td class="numi">1</td><td>1516317626305</td><td class="numi">395</td></tr><tr class="failedodd"><td><a href="#m2"><b>test_successfulSpin_winchartVsLastWin</b>  </a></td><td class="numi">1</td><td>1516317626702</td><td class="numi">204</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="19">scenariocomp.SlotMachineTests</td><td><a href="#m3"><b>ClickAndGetSpinButtonClass</b>  </a></td><td class="numi">1</td><td>1516317614318</td><td class="numi">8223</td></tr><tr class="passedodd"><td><a href="#m4"><b>testExtentReport</b>  </a></td><td class="numi">1</td><td>1516317622542</td><td class="numi">963</td></tr><tr class="passedodd"><td><a href="#m5"><b>testHeadlineMessage</b> (smoke) </a></td><td class="numi">1</td><td>1516317623507</td><td class="numi">69</td></tr><tr class="passedodd"><td><a href="#m6"><b>testHomeImage</b> (smoke) </a></td><td class="numi">1</td><td>1516317623578</td><td class="numi">48</td></tr><tr class="passedodd"><td><a href="#m7"><b>test_Init_Bet</b> (FirstTimeVisitor) </a></td><td class="numi">1</td><td>1516317623627</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m8"><b>test_Init_LifetimeWinnings</b> (FirstTimeVisitor) </a></td><td class="numi">1</td><td>1516317623673</td><td class="numi">40</td></tr><tr class="passedodd"><td><a href="#m9"><b>test_Init_betTryMe</b> (smoke) </a></td><td class="numi">1</td><td>1516317614223</td><td class="numi">92</td></tr><tr class="passedodd"><td><a href="#m10"><b>test_Init_dayWinnings</b> (FirstTimeVisitor) </a></td><td class="numi">1</td><td>1516317623714</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m11"><b>test_Init_lastWin</b> (FirstTimeVisitor) </a></td><td class="numi">1</td><td>1516317623762</td><td class="numi">43</td></tr><tr class="passedodd"><td><a href="#m12"><b>test_PostSpin_Credits</b>  </a></td><td class="numi">1</td><td>1516317623806</td><td class="numi">157</td></tr><tr class="passedodd"><td><a href="#m13"><b>test_PostSpin_winChartWon</b>  </a></td><td class="numi">1</td><td>1516317623964</td><td class="numi">60</td></tr><tr class="passedodd"><td><a href="#m14"><b>test_betSpinDown_bet</b>  </a></td><td class="numi">1</td><td>1516317624027</td><td class="numi">203</td></tr><tr class="passedodd"><td><a href="#m15"><b>test_betSpinDown_minBet</b>  </a></td><td class="numi">1</td><td>1516317624232</td><td class="numi">694</td></tr><tr class="passedodd"><td><a href="#m16"><b>test_betSpinUp_bet</b>  </a></td><td class="numi">1</td><td>1516317624927</td><td class="numi">118</td></tr><tr class="passedodd"><td><a href="#m17"><b>test_betSpinUp_maxBetAllowed</b>  </a></td><td class="numi">1</td><td>1516317625046</td><td class="numi">699</td></tr><tr class="passedodd"><td><a href="#m18"><b>test_betSpinUp_winChartValues</b> (smoke) </a></td><td class="numi">1</td><td>1516317625746</td><td class="numi">108</td></tr><tr class="passedodd"><td><a href="#m19"><b>test_dayWinnings</b>  </a></td><td class="numi">1</td><td>1516317625856</td><td class="numi">192</td></tr><tr class="passedodd"><td><a href="#m20"><b>test_lifetimeWinnings</b>  </a></td><td class="numi">1</td><td>1516317626049</td><td class="numi">202</td></tr><tr class="passedodd"><td><a href="#m21"><b>test_lifetimeWinningsVsDayWinnings</b>  </a></td><td class="numi">1</td><td>1516317626251</td><td class="numi">53</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">scenariocomp.SlotMachineTests:test_successfulSpin_winchartVsLastWin</h2>
+<div style="padding-left:3em">
+<p>expected [70] but found [0]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at scenariocomp.SlotMachineTests.test_successfulSpin_winchartVsLastWin(SlotMachineTests.java:370)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">scenariocomp.SlotMachineTests:test_successfulSpin_winChartVsreel</h2>
+<div style="padding-left:3em">
+<p>This is definitely a successSpin expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at scenariocomp.SlotMachineTests.test_successfulSpin_winChartVsreel(SlotMachineTests.java:408)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">scenariocomp.SlotMachineTests:test_Init_Bet</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">scenariocomp.SlotMachineTests:test_Init_dayWinnings</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">scenariocomp.SlotMachineTests:test_PostSpin_winChartWon</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">scenariocomp.SlotMachineTests:test_betSpinDown_bet</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">scenariocomp.SlotMachineTests:test_Init_betTryMe</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">scenariocomp.SlotMachineTests:test_PostSpin_Credits</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">scenariocomp.SlotMachineTests:ClickAndGetSpinButtonClass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">scenariocomp.SlotMachineTests:test_betSpinDown_minBet</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">scenariocomp.SlotMachineTests:test_lifetimeWinningsVsDayWinnings</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">scenariocomp.SlotMachineTests:test_betSpinUp_maxBetAllowed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">scenariocomp.SlotMachineTests:test_Init_lastWin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">scenariocomp.SlotMachineTests:testHomeImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">scenariocomp.SlotMachineTests:test_dayWinnings</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">scenariocomp.SlotMachineTests:test_betSpinUp_bet</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">scenariocomp.SlotMachineTests:test_Init_LifetimeWinnings</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">scenariocomp.SlotMachineTests:testHeadlineMessage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">scenariocomp.SlotMachineTests:test_betSpinUp_winChartValues</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">scenariocomp.SlotMachineTests:testExtentReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">scenariocomp.SlotMachineTests:test_lifetimeWinnings</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

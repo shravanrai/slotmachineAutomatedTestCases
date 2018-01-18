@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="scenariocomp.SlotMachineTests">
+        <methods>
+          <include name="testHeadlineMessage"/>
+          <include name="test_Init_credits"/>
+          <include name="test_betSpinDown_bet"/>
+          <include name="test_dayWinnings"/>
+          <include name="test_lifetimeWinnings"/>
+          <include name="extentReport"/>
+          <include name="test_successfulSpin_winchartVsLastWin"/>
+          <include name="init"/>
+          <include name="test_successfulSpin_winChartVsreel"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- scenariocomp.SlotMachineTests -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
